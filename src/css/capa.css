@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#entrar{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--font-color-green);
+}
+
+#entrar:hover{
+  color: var(--font-color-hover);
+}
+
+#capa-entrada, #entrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+#img-capa{
+  box-shadow: 2px 2px 5px black;
+}

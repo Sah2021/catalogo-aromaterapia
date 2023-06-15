@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+main{
+  max-width: 80vw;
+  margin: auto;
+}
+
+h3, h4{
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h4{
+  font-size: 1.5em;
+}
+
+div {  
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding-left: 1vw; 
+  padding-bottom: 1vw;
+}
+
+section.normal{
+  background-color: white;  
+}
+
+section#siglas{
+  margin-top: 1vw;
+  border-radius: 10px;
+  padding-top: 1vw; 
+}
+
+section.imagem{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.473);
+  line-height: 2em; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right center;
+}
+
+section.imagem > p {
+  font-size: 1.2em;
+  max-width: 50%;
+  background-color: rgba(255, 255, 255, 0.637);
+  padding: 5px 20px;
+  display: inline-block;
+  margin-left: 12px;
+}
+
+section#img01{
+  background-image: url(../imagens/outras-imagens/difusor.jpg); 
+}
+
+section#img02{
+  background-image: url(../imagens/outras-imagens/aromaterapia.jpg); 
+}
+
+section#precaucoes{  
+ padding: 3vw;
+}

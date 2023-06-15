@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/geral.css">
+  <link rel="stylesheet" href="./src/css/informacoes.css"> 
+  <link rel="stylesheet" href="./src/css/media-query.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <script src="./src/js/index.js" defer></script> 
+
+  <title>Aromaterapia</title>
+</head>
+<body onresize="mudouTamanho()">
+  <header>    
+      <h1>Aromaterapia</h1>
+      <h2>Catálogo de Óleos Essenciais</h2>      
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <menu id="itens">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./catalogo-oe.html">Óleos Essenciais</a></li>
+        <li><a href="./catalogo-ov.html">Óleos Vegetais</a></li>
+        <li><a href="./catalogo-ov-brasil.html">Óleos Vegetais do Brasil</a></li>
+        </ul>
+    </menu>
+  </header>
+
+  <main>
+    <section class="normal" id="siglas">
+      <h3>Siglas para leitura</h3>        
+        
+          <div>
+            <div>OE Óleo Essencial</div>
+            <div>OV Óleo Vegetal</div>
+            <div>RE Resinas e Bálsamos</div>
+          </div>
+            
+    </section> 
+    <section class="imagem" id="img01">
+      <h3>Formas de utilização</h3>
+      
+      <p>       
+          <strong>A - Aromatização ambiental - no aromatizador:</strong> 5 gotas de OE, complete com água.
+          Sprays: 15 a 20 gotas de OE em 500ml de água        
+      </p><br>
+      
+      <p>
+        <strong>AA - Água aromática:</strong> 20 gotas de OE para 100ml de água destilada
+      </p><br>
+  
+      <p>
+        <strong>B - Banho:</strong> 1 gota de OE na bucha, ou 3 a 5 gotas na banheira
+      </p><br>
+      
+      <p>
+        <strong>BA - Banho de assento:</strong> 3 a 5 gotas de OE ou RE em uma bacia d'agua
+      </p><br>
+      
+      <p>
+        <strong>C - Compressas:</strong> 2 gotas de OE para meio litro d'agua
+      </p><br>
+      
+      <p>
+        <strong>EP - Escalda-pés:</strong> 10 gotas de OE para cada 5 litros d'agua. Descansar por 20 min.
+      </p><br>
+      
+      <p>
+        <strong>I - Inalação:</strong> 6 a 8 gotas de OE por litro d'agua. Inalar por 15 a 20 min.
+      </p><br>
+      
+      <p>
+        <strong>M - Massagem:</strong> 30 a 40 gotas de OE em 60ml de OV
+      </p><br>
+      
+      <p>
+        <strong>SB - Saúde Bucal:</strong> 1 gota de OE ou RE para meio copo d'agua. 1 gotas de OE na escova de dentes. Fazer escovação
+      </p><br>
+      
+      <p>
+        <strong>UC - Uso cosmético:</strong> na diluição de 1,0-2,5% de OE, RE e OV para: óleos vegetais, xampus, sabonetes líquidos, óleos pós-banho, cremes hidratantes, máscaras de argila, máscaras capilares, condicionadores, cremes de pentear, reparadores de pontas, tônicos faciais e capilares, etc.
+      </p><br>
+      
+      <p>
+        <strong>UT - Uso tópico:</strong> 1 a 2 gotas de OE ou RE direto no local
+      </p><br>
+  
+      <p>
+        <strong>V - Vaporização facial:</strong> 4 a 6 gotas de OE por litro d'agua. Adicionar as gotas na água aos poucos até totalizar 5 min
+      </p><br>
+      
+      <p>      
+        <strong>Uso interno: </strong>
+        A ingestão de óleos essenciais pode ser arriscada por serem substâncias extremamente concentradas. Podem causar irritação gástrica, se não forem diluídos corretamente, e acumularem-se no corpo, se a dosagem ingerida for muito alta e contínua. Deve-se ter cautela na gravidez, em casos de epilepsia e es disturbios hepáticos. Por fim, só devem ser ingeridos sob prescrição médica ou de terapeuta qualificado.        
+      </p>
+    </section>
+
+    <section class="normal" id="precaucoes">
+      <h3>
+        Tomando algumas precauções    
+      </h3>
+      <p>
+        <strong>Óleos contra indicados para gestantes:</strong>
+        Artemísia, canela, cipreste, citronela, cravo, erva doce, gengibre, hortelã-pimenta, manjericão, manjerona, palmarosa, sálvia esclareia e tomilho
+      </p><br>
+      
+      <p>
+        <strong>Óleos contra indicados para os 3 primeiros meses de gestação:</strong>
+        Alecrim, cedro, eucalipto, gerânio, laranja, limão, olíbano, patchouli e tangerina.
+      </p><br>
+  
+      <p>
+        <strong>Óleos contra indicados para crianças menores de 2 anos:</strong>
+        Artemísia, cravo, erva doce, hortelã-pimenta, lemongrass, sálvia esclareia e tomilho.
+      </p><br>
+      
+      <p>
+        <strong>Óleos contra indicados para lactantes:</strong>
+        Artemísia, cravo, gengibre, hortelã-pimenta, sálvia esclareia e tomilho.
+      </p><br>
+  
+      <p>
+        <strong>Óleos que devem ser diluídos:</strong> Alecrim, artemísia, bergamota, canela, cedro, cipreste, citronela, cravo, erva doce, gengibre, hortelã-pimenta, laranja, lemongrass, limão, manjericão, manjerona, olíbano, palmarosa, patchouli, petitgrain, sálvia esclareia, tangerina, tomilho e ylang ylang
+      </p><br>
+  
+      <p>
+        <strong>Óleos fototóxicos:</strong>
+        Bergamota e limão
+      </p><br>
+      
+      <p>
+        <strong>Óleos tóxicos para cães:</strong>
+        Melaleuca, alho, alecrim, tomilho, gerânio, zimbro e gaultéria
+      </p><br>
+      
+      <p>
+        <strong>Óleos tóxicos para gatos:</strong>
+        Melaleuca, cássia, tomilho, eucalipto, canela, bergamota, citrino, alho, manjericão, lavanda, hortelã-pimenta, gerânio, toranja, gaultéria, orégano, limão, poejo, lima, abeto, laranja silvestre
+      </p><br>
+    </section>
+
+
+    <section class="imagem" id="img02">
+      <h3>Algumas proporções</h3>
+      <h4>Para facilitar o preparo de sinergias</h4>
+      
+      <p>As medidas utilizadas para óleos essenciais são sempre aproximadas, pois cada um deles é único, singular. Portanto, possuem propriedades físicas específicas que o diferem entre si. O volume de uma gota de óleo essencial varia de acordo com o óleo, mesmo que se utilize um gotejador padrão. Isto relaciona-se principalmente à viscosidade, à força da gravidade e à tensão superficial existente em cada líquido.</p><br>
+      
+      <p>
+        <strong>1 gota:</strong>
+        0,025ml aproximadamente
+        1ml = 40 gotas aproximadamente
+      </p><br>
+      
+      <p>
+        <strong>Frasco 10 ml de OE:</strong>
+        300 a 400 gotas aproximadamente
+      </p><br>
+      
+      <p>
+        <strong>Diluição em cosméticos:</strong>
+        12 gotas de OE em 60 ml de OV ou cosmético até 30 gotas de OE em 60 ml de OV ou cosmético*
+      </p><br>
+      
+      <p>
+        <strong>Diluição em massagens terapêuticas e preparados fitoterápicos:</strong>
+        30 gotas de OE em 60ml de OV até 60 gotas de OE em 60 ml de OV*
+      </p><br>
+      
+      <p>
+        <strong>Diluição para uso em bebês até 2 anos:</strong>
+        12 gotas de OE em 60ml de OV ou cosmético.
+        Nem todos os óleos podem ser utilizados
+      </p><br>
+      
+      <p>
+        <strong>Diluição para uso em cães adultos:</strong>
+        12 gotas de OE em 60ml de OV ou cosmético.
+      </p><br>
+      
+      <p>
+        <strong>Culinária:</strong>
+        Haverão grandes variações na quantidade, pois dependerá do óleo a ser adicionado e do prato a ser executado. Ex: 2 gotas de OE para 2 colheres de sopa de OV no refogado.
+      </p><br>
+      
+      <p id="asterisco">
+        * As variações dependem dos óleos a serem utilizados, do intuito da sinergia e do tipo de pessoa (idoso, jovem, saudável, com problemas de saúde).
+      </p>
+    </section>
+
+
+    </main>
+
+    <footer>
+        <p><em>Salete dos Santos</em> - <a href="https://github.com/Sah2021" target="_blank" rel="Salete dos Santos">My Github</a> - 2023</p>
+        <p>Informações extraídas do site <a href="https://loja.phytoterapica.com.br/" target="_blank" rel="loja Phytoterápica">Phytoterápica</a></p>
+    </footer>
+      
+  </body>
+</html>

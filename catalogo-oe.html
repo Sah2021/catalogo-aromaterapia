@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/catalogo.css">
+  <link rel="stylesheet" href="./src/css/scrollbar.css">
+  <link rel="stylesheet" href="./src/css/geral.css"> 
+  <link rel="stylesheet" href="./src/css/media-query.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <script src="./src/js/index.js" defer></script> 
+
+  <title>Aromaterapia</title>
+</head>
+<body onresize="mudouTamanho()">
+  <header>    
+      <h1>Aromaterapia</h1>
+      <h2>Catálogo de Óleos Essenciais</h2>      
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <menu id="itens">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./catalogo-ov.html">Óleos Vegetais</a></li>
+        <li><a href="./catalogo-ov-brasil.html">Óleos Vegetais do Brasil</a></li>
+        <li><a href="./informacoes.html">Informações</a></li>
+      </ul>
+    </menu>
+  </header>
+
+  <main>
+    <ul class="listagem-oleos">
+      <!--Alecrim-->
+      <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Alecrim</span>          
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/alecrim.png" alt="Alecrim" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Rosmarinus officinalis</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Cabelos enfraquecidos, atua na celulite, controla a oleosidade da pele e nos poros dilatados.</p>
+          <p><strong>Aplicações no campo emocional:</strong> Contribui para a autovalorização, autoestima, concentração, disposição, alegria e é estimulante.</p>
+          <p><strong>Componentes principais:</strong> 1,8-cineol, cânfora e alfa-pineno.</p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor da planta.</p>
+          <p><strong>Nota olfativa:</strong> Média.</p>
+          <p><strong>Classificação de fragrância:</strong> Herbáceo.</p>
+          <p><strong>Família:</strong> Lamiaceae.</p>
+          <p><strong>DICA DE USO:</strong> Para controle de queda durante a transição capilar. Pingue 10 gotas do óleo essencial de Alecrim em 30ml do óleo vegetal de Jojoba. Misture bem e aplique na raiz do cabelo e massageie. Deixe agir por 20 minutos e lave como de costume. O óleo essencial de Alecrim também auxilia na autoconfiança, sendo um ótimo aliado nesse processo.</p>
+        </div>      
+      </li>
+
+      <!--Bergamota-->
+      <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Bergamota</span>          
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/bergamota.png" alt="Bergamota" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Citrus bergamia</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Equilibra a oleosidade da pele, útil para casos de excesso de sebo do couro cabeludo, age como detox, atua na celulite.</p>
+          <p><strong>Aplicações no campo emocional:</strong> Tem aroma levemente floral. Auxilia na autoestima, autoconfiança, alegria, ajuda a equilibrar comportamento autodestrutivo.</p>
+          <p><strong>Componentes principais:</strong> Acetato de linalila, limoneno e linalol.</p>
+          <p><strong>Método de extração:</strong> Prensagem a frio da casca.</p>
+          <p><strong>Nota olfativa:</strong> Alta.</p>
+          <p><strong>Classificação de fragrância:</strong> Cítrico.</p>
+          <p><strong>Família:</strong> Rutaceae.</p>         
+        </div>      
+      </li>
+
+      <!--Canela-->
+      <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Canela</span>          
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/canela.png" alt="Canela" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Cinamommum cassia</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong>Ajuda nos tratamentos estéticos contra a celulite, além de ser ótimo para os cabelos, proporcionando brilho e luminosidade.
+          </p>
+          <p><strong>Aplicações no campo emocional:</strong> Atua contra o desânimo, fadiga mental e a sonolência.
+          </p>
+          <p><strong>Componentes principais:</strong>Aldeído cinâmico.
+          </p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor das folhas.
+          </p>
+          <p><strong>Nota olfativa:</strong> Média.</p>
+          <p><strong>Classificação de fragrância:</strong> Penetrante.
+          </p>
+          <p><strong>Família:</strong> Lauraceae.
+          </p> 
+          <p><strong>Precauções:</strong> Não usar puro sobre a pele. Diluir em óleo vegetal. Em caso de sensibilização procure orientação médica. Manter ao abrigo da luz, calor e fora do alcance das crianças. Evite este óleo se estiver gestante. Em altas concentrações, pode irritar a pele e mucosa. Na pele, use sempre diluído em óleo vegetal ou creme na concentração de 0,05%. Contraindicado para pessoas sensíveis a algum componente da fórmula.
+          </p>
+        </div>      
+      </li>
+
+       <!--Copaíba-->
+       <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Copaíba</span>          
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/copaiba.png" alt="Copaiba" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Copaifera officinalis</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Ajuda na beleza das unhas.Além de ser potente para rugas, espinhas e acnes.</p>
+          <p><strong>Aplicações no campo emocional:</strong> O óleo essencial de Copaíba tem a energia da árvore copaibeira, firme e com estrutura sólida. Dessa forma, a energia desse óleo essencial pode ajudar pessoas que se sentem fragilizadas.</p>
+          <p><strong>Componente principal:</strong> Beta-cariofileno.</p>
+          <p><strong>Método de extração:</strong> Destilação fracionada do bálsamo.</p>
+          <p><strong>Nota olfativa:</strong> Baixa.</p>
+          <p><strong>Classificação de fragrância:</strong> Resinosa, balsâmica, adocicada.</p>
+          <p><strong>Família:</strong> Fabaceae.</p>         
+        </div>      
+      </li>
+
+       <!--Cravo-->
+       <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Cravo</span>         
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/cravo.png" alt="Cravo" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Eugenia caryophyllata</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Contribui na beleza das unhas.</p>
+          <p><strong>Aplicações no campo emocional:</strong> Revitalizante, inspira iniciativa, ação, libera energia estagnada do ambiente e atua na fadiga mental, revigorando a memória.</p>
+          <p><strong>Componente principal:</strong> Eugenol.</p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor das folhas.</p>
+          <p><strong>Nota olfativa:</strong> Média.</p>
+          <p><strong>Classificação de fragrância:</strong> Penetrante.</p>
+          <p><strong>Família:</strong> Myrtaceae.</p>
+          <p><strong>Precauções:</strong> Não usar puro sobre a pele. Diluir em óleo vegetal. Em caso de sensibilização procure orientação médica. Manter ao abrigo da luz, calor e fora do alcance das crianças. Contraindicado para pessoas sensíveis a algum componente da fórmula.</p>         
+        </div>      
+      </li>
+
+       <!--Eucalipto-->
+       <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Eucalipto</span>         
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/eucalipto.png" alt="Eucalipto" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Eucalyptus globulus</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Útil contra a acne e limpeza do couro cabeludo.</p>
+          <p><strong>Aplicações no campo emocional:</strong> Estimula a mente, expande os pensamentos, renova a energia, ativa a concentração e o foco.</p>
+          <p><strong>Componente principal:</strong> 1,8-cineol.</p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor das folhas.</p>
+          <p><strong>Nota olfativa:</strong> Alta.</p>
+          <p><strong>Classificação de fragrância:</strong> Herbáceo.</p>
+          <p><strong>Família:</strong> Myrtaceae.</p>         
+        </div>      
+      </li>
+
+       <!--Gerânio-->
+       <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Gerânio</span>
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/geranio.png" alt="Gerânio" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Pelargonium graveolens</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Equilibra oleosidade capilar, excelente para peles maduras, ameniza rugas e linhas de expressão.</p>
+          <p><strong>Aplicações no campo emocional:</strong> Ajuda a estimular a coragem e a força. Trabalha a autoestima, autoaceitação e autoperdão.</p>
+          <p><strong>Componentes principais:</strong> Citronelol e geraniol.</p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor das folhas.</p>
+          <p><strong>Nota olfativa:</strong> Média.</p>
+          <p><strong>Classificação de fragrância:</strong> Floral, fresco, levemente adocicado.</p>
+          <p><strong>Família:</strong> Geraniaceae.</p>         
+        </div>      
+      </li>
+
+       <!--Hortelã-->
+       <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Hortelã-Pimenta</span>          
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/hortela.png" alt="Hortelã" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Mentha piperita</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Auxilia na redução de manchas escuras de pele, crescimento capilar, age na celulite, sendo muito útil em massagens estéticas.</p>
+          <p><strong>Aplicações no campo emocional:</strong> Expande os pensamentos, refresca e revigora a mente. Extremamente aromático, ajuda na concentração. Contribui a elevar a energia e o ânimo.</p>
+          <p><strong>Componentes principais:</strong> Mentol e mentona.</p>
+          <p><strong>Método de extração</strong>: Destilação por arraste de vapor das folhas.</p>
+          <p><strong>Nota olfativa:</strong> Alta.</p>
+          <p><strong>Classificação de fragrância:</strong> Mentolado.</p>
+          <p><strong>Família:</strong> Lamiaceae.</p>
+          <p><strong>DICA DE USO:</strong> Estimule o crescimento dos cabelos. Misture 20 gotas do óleo essencial de Hortelã-Pimenta + 50ml de óleo vegetal de Abacate + 210ml do extrato de Aloe Vera. Coloque a sinergia em um frasco borrifador, agite bem e borrife nos cabelos todos os dias. O óleo essencial de Hortelã-Pimenta também é ótimo para persistência, irá ajudar a seguir o processo até o final.</p>         
+        </div>      
+      </li>
+
+       <!--Laranja-->
+       <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Laranja</span>
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/laranja.png" alt="Laranja" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Citrus sinensis</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Age na retenção de líquidos, celulite e gorduras localizadas. Útil para poros dilatados e pele com linhas de expressão.</p>
+          <p><strong>Aplicações no campo emocional:</strong> Indicado para alegria, descontração, movimento e expressão.</p>
+          <p><strong>Componente principal:</strong> Limoneno.</p>
+          <p><strong>Método de extração:</strong> Prensagem da casca da laranja doce.</p>
+          <p><strong>Nota olfativa:</strong> Alta.</p>
+          <p><strong>Classificação de fragrância:</strong> Cítrica.</p>
+          <p><strong>Família:</strong> Rutaceae.</p>         
+        </div>      
+      </li>
+
+       <!--Lavanda-->
+       <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Lavanda</span>
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/lavanda.png" alt="Lavanda" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Lavandula officinalis</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> Ameniza rugas e linhas de expressão, acne, espinhas e equilibra a oleosidade da pele.</p>
+          <p><strong>Aplicações no campo emocional:</strong> Proporciona tranquilidade e acalma a mente de pensamentos conturbados.</p>
+          <p><strong>Componentes principais:</strong> Linalol e Acetato de Linalila.</p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor das flores.</p>
+          <p><strong>Nota olfativa:</strong> Média.</p>
+          <p><strong>Classificação de fragrância:</strong> Floral/Herbáceo.</p>
+          <p><strong>Família:</strong> Lamiaceae.</p>         
+        </div>      
+      </li>
+
+      <!--Limão-Siciliano-->
+      <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Limão-Sicíliano</span>
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/limao-siciliano.png" alt="Limão-Sicíliano" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Citrus limon</li>
+        </ul>
+
+        <div class="descricao">
+          <p><strong>Aplicações cosméticas:</strong> : Indicado para massagens redutoras, drenagem linfática, pois ajuda a diminuir a retenção de líquidos. Equilibra a oleosidade da pele e da raiz dos cabelos.
+          </p>
+          <p><strong>Aplicações no campo emocional:</strong> Ameniza angústia, proporciona clareza e ânimo. Trabalha nos conflitos emocionais, ajuda na concentração de crianças em idade escolar.
+          </p>
+          <p><strong>Componentes principais:</strong> Limoneno, beta-pineno e gama-terpineno.
+          </p>
+          <p><strong>Método de extração:</strong> Prensagem da casca.
+          </p>
+          <p><strong>Nota olfativa:</strong> Alta.
+          </p>
+          <p><strong>Classificação de fragrância:</strong> Cítrico.
+          </p>
+          <p><strong>Família:</strong> Rutaceae.</p>         
+        </div>      
+      </li>
+
+       <!--Melaleuca-->
+       <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Melaleuca</span>        
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/melaleuca.png" alt="Melaleuca" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Melaleuca alternifolia</li>
+        </ul>
+
+        <div class="descricao">
+          <P><strong>Aplicações cosméticas:</strong> Previne acnes e equilibra a oleosidade da pele. Fortalece os cabelos quebradiços.</P>
+          <p><strong>Aplicações no campo emocional:</strong> Proporciona ânimo e vigor.</p>
+          <p><strong>Componentes principais:</strong> Terpinen-4-ol e 1,8-cineol.</p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor das folhas.</p>
+          <p><strong>Nota olfativa:</strong> Média.</p>
+          <p><strong>Classificação de fragrância:</strong> Fresco, amadeirada, herbal.</p>
+          <p><strong>Família:</strong> Myrtaceae.</p>       
+        </div>      
+      </li>
+
+      <!--Olíbano-->
+      <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Olíbano</span>        
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/olibano.png" alt="Olíbano" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Boswellia carteri</li>
+        </ul>
+
+        <div class="descricao">
+          <P><strong>Aplicações cosméticas:</strong>Auxilia a prevenir rugas e marcas de expressão, amenizando casos de acne e clareando a pele. Promove fortalecimento e brilho aos fios secos e sem vida.
+          </P>
+          <p><strong>Aplicações no campo emocional:</strong>Atua nos momentos meditativos, tranquilizando a mente.
+          </p>
+          <p><strong>Componentes principais:</strong>Alfa-pineno, alfa-tujeno e limoneno.
+          </p>
+          <p><strong>Método de extração:</strong>: Destilação por arraste de vapor da resina.
+          </p>
+          <p><strong>Nota olfativa:</strong> Baixa.</p>
+          <p><strong>Classificação de fragrância:</strong>: Fresca, amadeirada.</p>
+          <p><strong>Família:</strong> Burseraceae.
+          </p>            
+        </div>      
+      </li>
+
+      <!--Patchouli-->
+      <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Patchouli</span>        
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/patchouli.png" alt="Patchouli" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Pogostemon patchouli</li>
+        </ul>
+
+        <div class="descricao">
+          <P><strong>Aplicações cosméticas:</strong> Auxilia na manutenção da saúde da pele, amenizando rachaduras, rugas e estrias. Bastante utilizado em massagens diminuindo a retenção de líquidos.
+          </P>
+          <p><strong>Aplicações no campo emocional:</strong> : Promove o aterramento no presente, muito indicado para pessoas distraídas. Expande a força vital e fortalece a vontade de viver. Excelente fixador de sprays aromáticos.
+          </p>
+          <p><strong>Componentes principais:</strong> Patchoulol e alfa-guaiene.
+          </p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor das folhas secas.
+          </p>
+          <p><strong>Nota olfativa:</strong> Baixa.
+          </p>
+          <p><strong>Classificação de fragrância:</strong> Terral, almiscarado, amadeirado próximo ao frutal.
+          </p>
+          <p><strong>Família:</strong> Lamiaceae.
+          </p>       
+        </div>      
+      </li>
+
+      <!--Sálvia-Esclareia-->
+      <li class="cartao-oleos">
+        <div class="informacoes" id="informacoes-oe">
+          <span>Sálvia-Esclareia</span>        
+        </div>
+
+        <img src="./src/imagens/oleos-essenciais/salvia-esclareia.png" alt="Sálvia-Esclareia" class="img">
+
+        <ul class="nome-cientifico">
+          <li>Salvia sclarea</li>
+        </ul>
+
+        <div class="descricao">
+          <P><strong>Aplicações cosméticas:</strong> Cuida da pele prevenindo rugas e acnes. No cabelo, auxilia no fortalecimento, crescimento dos fios e oleosidade excessiva.</P>
+          <p><strong>Aplicações no campo emocional:</strong> Energiza a mente e permite experimentar a quietude da alegria. Proporciona clareza mental.</p>
+          <p><strong>Componentes principais:</strong> Acetato de linalila e linalol.</p>
+          <p><strong>Método de extração:</strong> Destilação por arraste de vapor da planta.</p>
+          <p><strong>Nota olfativa:</strong> Média.</p>
+          <p><strong>Classificação de fragrância:</strong>Terral, herbal.</p>
+          <p><strong>Família:</strong> Lamiaceae.
+          </p>  
+          <p><strong>DICA DE USO:</strong> Para fortalecer e nutrir os fios frágeis durante a transição capilar. Pingue 10 gotas do óleo essencial de Sálvia Esclareia em 60ml do óleo vegetal de Abacate. Aplique por mechas, do comprimento até as pontas, evitando a raiz. Deixe agir por 1 hora e lave. Para auxiliar no processo, o óleo essencial de Sálvia Esclareia também pode ser utilizado para fortalecer o lado feminino da mulher.
+          </p>     
+        </div>      
+      </li>
+    </ul>
+  </main>
+  
+  <footer>
+    <p><em>Salete dos Santos</em> - <a href="https://github.com/Sah2021" target="_blank" rel="external">My Github</a> - 2023</p>
+    <p>Informações extraídas do site <a href="https://loja.phytoterapica.com.br/" target="_blank" rel="external">Phytoterápica</a></p>
+  </footer>
+
+</body>
+</html>

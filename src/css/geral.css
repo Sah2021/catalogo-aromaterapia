@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/*H1 - Aromaterapia*/ 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+/*Body*/
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500&display=swap');
+
+/*H2*/
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+  --cor-de-fundo:#e4ebd0;
+  --border-color-hover: #5F428A;
+  --border-color:#AD92D6;
+  --font-color-purple:#4d367e;
+  --font-color-green:#595834;
+  --font-color-hover:#95ad4a;
+  --color-informacoes-oe:#faf9da;
+  --color-informacoes-ov:#f0e1e3;
+  --color-informacoes-ovb:#e3ebcd;
+  --color-nome-cient:#eee4fd;   
+}
+
+body{
+  background-color: var(--cor-de-fundo); 
+  font-family: 'Gothic A1', sans-serif;  
+}
+
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+  font-size: 80px; 
+  font-variant: small-caps; 
+  background-image: linear-gradient(to bottom, #223f07, #274908, #d1daa7 , #757c4f, #213b06);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 20px;  
+}
+
+h2{
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-align: center; 
+  color: var(--font-color-green);
+  padding-bottom: 20px;
+}
+
+i#burguer{
+  color: var(--font-color-green);
+  display: block;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+i#burguer:hover{
+  color:var(--font-color-hover);
+}
+
+menu{
+  width: 100%;      
+}
+
+menu > ul{
+  list-style-type: none;
+  display: flex;
+  justify-content:center;
+  column-gap: 10px;
+}
+
+menu > ul > li > a{
+  display: block;
+  width: auto;  
+  padding: 10px;  
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ffffff;
+  color: var(--font-color-green);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+menu > ul > li > a:hover{
+  color: var(--border-color)
+}
+
+footer a{
+  text-decoration: none;
+  font-style: italic; 
+  color: var(--font-color-green);
+}
+
+footer a:hover{
+  color:var(--font-color-hover);
+}
+
+footer{
+  color: var(--font-color-green);
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 0px 25px 0px;
+}
