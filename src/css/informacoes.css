@@ -7,16 +7,17 @@ main{
 
 h3, h4{
   font-family: 'Quattrocento Sans', sans-serif;
-  font-size: 2em;
+  font-size: min(30px, 8vw);
   text-align: center;
-  padding-bottom: 20px;
+  padding: 10px 5px;
 }
 
 h4{
-  font-size: 1.5em;
+  font-size: min(20px, 8vw);
 }
 
 div {  
+  font-size: min(16px, 5vw);
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -29,9 +30,9 @@ section.normal{
 }
 
 section#siglas{
-  margin-top: 1vw;
+  margin-top: 2vw;
   border-radius: 10px;
-  padding-top: 1vw; 
+  padding:10px 7px; 
 }
 
 section.imagem{
@@ -40,18 +41,22 @@ section.imagem{
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.473);
-  line-height: 2em; 
+  line-height: 1.2em;
   background-attachment: fixed;
   background-size: cover;
   background-position: right center;
 }
 
 section.imagem > p {
-  font-size: 1.2em;
-  max-width: 50%;
-  background-color: rgba(255, 255, 255, 0.637);
-  padding: 5px 20px;
-  display: inline-block;
+  font-size: min(16px, 5vw ) ;  
+}
+
+section > div.text-img{
+  max-width: 70%;
+  background-color: rgba(255, 255, 255, 0.76);
+  max-width: 70%; 
+  padding: 5px 15px;
+  display: block;
   margin-left: 12px;
 }
 

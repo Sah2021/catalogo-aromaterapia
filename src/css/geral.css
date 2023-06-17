@@ -30,7 +30,7 @@ body{
 h1{
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
-  font-size: 80px; 
+  font-size: min(70px, 10vw); 
   background-image: linear-gradient(to bottom, #223f07, #274908, #d1daa7 , #757c4f, #213b06);
   color: black;
   background-clip: text;
@@ -41,7 +41,8 @@ h1{
 
 h2{
   font-family: 'Quattrocento Sans', sans-serif;
-  text-align: center; 
+  text-align: center;
+  font-size: min(20px, 6vw); 
   color: var(--font-color-green);
   padding-bottom: 20px;
 }
@@ -66,16 +67,17 @@ menu > ul{
   list-style-type: none;
   display: flex;
   justify-content:center;
-  column-gap: 10px;
+  column-gap: max(5px, 1vw);
 }
 
 menu > ul > li > a{
   display: block;
   width: auto;  
-  padding: 10px;  
+  padding: 5px;  
   align-items: center;
   text-decoration: none;
   text-align: center;
+  font-size: min(16px, 5vw);
   background-color: #ffffff;
   color: var(--font-color-green);
   border: 1px solid var(--border-color);
@@ -98,7 +100,7 @@ footer a:hover{
 
 footer{
   color: var(--font-color-green);
-  font-size: 20px;
+  font-size: min(20px, 7vw);
   text-align: center;
   padding: 15px 0px 25px 0px;
 }
