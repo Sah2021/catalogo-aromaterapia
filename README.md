@@ -1,4 +1,4 @@
-# Catalogo de Aromaterapia.
+# Catálogo de Aromaterapia.
 _Catálogo de óleos essenciais, óleos vegetais e resinas_
 
 A idéia desse projeto surgiu com um proposta de Cards do Pokemon, do DevEmDobro.
