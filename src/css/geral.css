@@ -66,6 +66,7 @@ menu{
 menu > ul{
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content:center;
   column-gap: max(5px, 1vw);
 }
